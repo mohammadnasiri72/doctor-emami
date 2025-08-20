@@ -13,7 +13,6 @@ import MotionLazyContainer from './components/animate/MotionLazyContainer';
 import useSettings from './hooks/useSettings';
 
 // ----------------------------------------------------------------------
-// test
 
 export default function App() {
   const { onChangeDirection } = useSettings();
