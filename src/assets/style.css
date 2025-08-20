@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    text-align: center;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+
+.bg-register{
+    background-image: url('./../../public/images/bg-register.jpg');
+}
+@font-face{
+    font-family: "iransans";
+    src: url("./../../public/fonts/IRANSansWeb\(FaNum\)_Light.ttf");
+}
+@font-face {
+    font-family: "IranNastaliq";
+    src: url('./../../public/fonts/IranNastaliq.ttf') ;
+}
+*{
+    font-family: "iransans" !important;
+}
+.bg-login{
+    background-image: url('./../../public/images/bg.jpeg');
+}
+.toast-modal{
+    margin-top: 70px;
+    z-index: 55555555 !important;
+}
+.toast-modal-file{
+    z-index: 1000000 !important;
+}
+
+.swal2-container {
+    z-index: 99999999999999999999999 !important;
+  }
+  
+.textfield-style{
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.box-avatar:hover img{
+    filter: brightness(50%);
+}
+.font-nastaligh{
+    font-family: 'IranNastaliq' !important;
+}
+
+.bg-done{
+    background-color: #1b925d !important;
+}
+.text-white{
+    color: white !important;
+}
+
+.box-reserve{
+    
+}
+.box-reserve::-webkit-scrollbar{
+    height: 5px;
+    width: 10px;
+}
+.box-reserve::-webkit-scrollbar-thumb{
+    background: #888; 
+}
+.box-reserve::-webkit-scrollbar-track{
+    background: #f1f1f1; 
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    overflow: hidden;
+  }

@@ -1,0 +1,1 @@
+export const mainDomain = 'https://cis.drbehroozemami.com'
